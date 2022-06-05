@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "server": "json-server --watch countries.json --delay 500 --port 3001"
+  }
+}
