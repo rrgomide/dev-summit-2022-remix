@@ -1,0 +1,21 @@
+Dev Summit 2022 - roteiro
+=========================
+
+() Mostrar backend
+() Mostrar CRA
+() Mostrar Remix
+
+Comparativos
+------------
+
+() "Zerar" backend
+() Abrir network tab
+() Race conditions - clicar rapidamente nos corações
+
+() Link prefetch - clicar nos nomes dos países
+() Mostrar requisição no "hover" com Remix
+
+() Mostrar Pending Ui
+() Mostrar Optimistic Ui
+
+() Grand Finale - desabilitar o JavaScript

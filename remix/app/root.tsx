@@ -35,7 +35,7 @@ export default function App() {
 
       <body className="h-full bg-white">
         <header>
-          <div className="bg-blue-100 mx-auto p-4">
+          <div className="bg-yellow-100 mx-auto p-4">
             <h1 className="text-center font-semibold text-xl">Remix</h1>
           </div>
         </header>

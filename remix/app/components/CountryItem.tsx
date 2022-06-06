@@ -1,4 +1,12 @@
-import { Link, useFetcher } from '@remix-run/react'
+import { NavLink, useFetcher } from '@remix-run/react'
+
+type Props = {
+  id: string
+  name: string
+  favorite: boolean
+  withPendingUi: boolean
+  withOptimisticUi: boolean
+}
 
 function CountryItem({
   id,
@@ -6,16 +14,14 @@ function CountryItem({
   favorite,
   withPendingUi,
   withOptimisticUi,
-}: any) {
+}: Props) {
   const fetcher = useFetcher()
 
-  const isSubmitting = fetcher.state !== 'idle'
-  //const formData = fetcher.submission?.formData
-  //const countryId = formData?.get('country-id')?.toString() ?? '-1'
+  const isSubmittingOrLoading = fetcher.state !== 'idle'
 
   let favoriteIcon = favorite ? '🧡' : '🖤'
 
-  if (isSubmitting) {
+  if (isSubmittingOrLoading) {
     if (withPendingUi) {
       favoriteIcon = '💛'
     }
@@ -40,9 +46,13 @@ function CountryItem({
         <input type="hidden" name="country-id" value={id} />
       </fetcher.Form>
 
-      <Link prefetch="intent" to={id}>
+      <NavLink
+        prefetch="intent"
+        to={id}
+        className={({ isActive }) => (isActive ? 'underline' : undefined)}
+      >
         {name}
-      </Link>
+      </NavLink>
     </li>
   )
 }

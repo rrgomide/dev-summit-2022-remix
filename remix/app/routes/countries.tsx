@@ -7,8 +7,8 @@ import {
 } from '@remix-run/react'
 
 import type { LoaderFunction, ActionFunction } from '@remix-run/node'
-
 import { json } from '@remix-run/node'
+
 import {
   apiGetAllCountryNames,
   apiToggleFavoriteCountry,
@@ -17,6 +17,9 @@ import {
 import { CountryList } from '~/components'
 import { useHydrated } from 'remix-utils'
 
+/**
+ * Backend: "get"
+ */
 const loader: LoaderFunction = async () => {
   const countries = await apiGetAllCountryNames()
   const favoriteCountries = countries.filter(({ favorite }) => favorite).length
@@ -24,11 +27,12 @@ const loader: LoaderFunction = async () => {
   return json({ countries, favoriteCountries })
 }
 
+/**
+ * Backend: "post" / "put" / "delete"
+ */
 const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData()
   const formAction = formData.get('_action')
-
-  console.log(formAction)
 
   switch (formAction) {
     case 'toggle-favorite': {
@@ -68,7 +72,12 @@ function ExtraControls() {
       <input type="hidden" name="_action" value="change-improvement" />
 
       <label className="flex flex-row items-center justify-start space-x-2">
-        <input type="radio" name="improvement" value="none" />
+        <input
+          type="radio"
+          name="improvement"
+          value="none"
+          defaultChecked={true}
+        />
         <span>Sem melhorias</span>
       </label>
 

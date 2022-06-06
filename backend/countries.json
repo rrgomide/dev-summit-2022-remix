@@ -961,7 +961,7 @@
     },
     {
       "id": "bahrain",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Bahrain",
         "official": "Kingdom of Bahrain",
@@ -4337,7 +4337,7 @@
     },
     {
       "id": "angola",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Angola",
         "official": "Republic of Angola",
@@ -5509,7 +5509,7 @@
     },
     {
       "id": "azerbaijan",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Azerbaijan",
         "official": "Republic of Azerbaijan",
@@ -8299,7 +8299,7 @@
     },
     {
       "id": "argentina",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Argentina",
         "official": "Argentine Republic",
@@ -24527,7 +24527,7 @@
     },
     {
       "id": "bahamas",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Bahamas",
         "official": "Commonwealth of the Bahamas",
@@ -42240,7 +42240,7 @@
     },
     {
       "id": "albania",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Albania",
         "official": "Republic of Albania",
@@ -44656,7 +44656,7 @@
     },
     {
       "id": "bangladesh",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Bangladesh",
         "official": "People's Republic of Bangladesh",
@@ -46443,7 +46443,7 @@
     },
     {
       "id": "australia",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Australia",
         "official": "Commonwealth of Australia",
@@ -46644,7 +46644,7 @@
     },
     {
       "id": "austria",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Austria",
         "official": "Republic of Austria",
@@ -48005,7 +48005,7 @@
     },
     {
       "id": "anguilla",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Anguilla",
         "official": "Anguilla",
@@ -49748,7 +49748,7 @@
     },
     {
       "id": "afghanistan",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Afghanistan",
         "official": "Islamic Republic of Afghanistan",

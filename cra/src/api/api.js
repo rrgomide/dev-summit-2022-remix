@@ -7,12 +7,12 @@ async function apiGetAllCountryNames() {
 
   const response = data
     .map(item => {
-      const { id, name } = item
+      const { id, name, favorite } = item
 
       return {
         id,
         name: name.common,
-        favorite: false,
+        favorite,
       }
     })
     .sort((a, b) => a.name.localeCompare(b.name))
