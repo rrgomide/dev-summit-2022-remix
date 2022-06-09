@@ -18,4 +18,4 @@ Comparativos
 (x) Mostrar Pending Ui
 (x) Mostrar Optimistic Ui
 
-() Grand Finale - desabilitar o JavaScript
+(x) Grand Finale - desabilitar o JavaScript
