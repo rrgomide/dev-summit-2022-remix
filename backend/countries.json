@@ -4337,7 +4337,7 @@
     },
     {
       "id": "angola",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Angola",
         "official": "Republic of Angola",
@@ -8299,7 +8299,7 @@
     },
     {
       "id": "argentina",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Argentina",
         "official": "Argentine Republic",
@@ -14787,7 +14787,7 @@
     },
     {
       "id": "aland-islands",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Åland Islands",
         "official": "Åland Islands",
@@ -33567,7 +33567,7 @@
     },
     {
       "id": "american-samoa",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "American Samoa",
         "official": "American Samoa",
@@ -33958,7 +33958,7 @@
     },
     {
       "id": "andorra",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Andorra",
         "official": "Principality of Andorra",
@@ -37808,7 +37808,7 @@
     },
     {
       "id": "antigua-and barbuda",
-      "favorite": false,
+      "favorite": true,
       "name": {
         "common": "Antigua and Barbuda",
         "official": "Antigua and Barbuda",
@@ -42240,7 +42240,7 @@
     },
     {
       "id": "albania",
-      "favorite": true,
+      "favorite": false,
       "name": {
         "common": "Albania",
         "official": "Republic of Albania",
